@@ -1,0 +1,463 @@
+
+.cabecalho{
+    display: flex;
+    background-color:#dc0a1b;
+    align-items: center;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    height: 110px;
+}
+#lista{
+    display: flex;
+}
+#logo{
+    width:300px;
+    height: 110px;
+}
+.item{
+    padding:30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    list-style-type: none;
+    border-left: white 3px solid;
+}
+#links{
+    margin-left: auto;
+}
+#i1{
+    border-left: none;
+}
+
+.mobile-header-icon {
+    display:none;
+}
+
+.mobile-header {
+    display: none;
+}
+
+.inicio{
+    margin-top: 6px;
+    display:flex;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(255, 255, 255);
+    position: relative;
+    width:100%;
+    height: 50%;
+}
+#logo2{
+    width:520px;
+    height: 110px;
+}
+#hamburguer{
+    width: 100%;
+}
+#cardapio{
+    width:65.9%;
+    padding-left: 34.1%;
+}
+#redes{
+    width:77.4%;
+    padding-left: 22.6%;
+}
+
+.quadro{
+    width: 100%;
+}
+#peqs{
+    width: 20%;
+}
+#pizza{
+    width: 100%;
+}
+#comidas{
+    width: 20%;
+    font-size: 50px;
+    padding:2.5%;
+    font-family: Verdana, Tahoma, sans-serif, bold;
+}
+#pizza{
+    width: 100%;
+}
+#principal{
+    width: 60%;
+}
+#peqs:hover {
+    cursor: pointer;
+}
+#principal:hover{
+    cursor: pointer;
+}
+.recomendar{
+    margin-top: 15px;
+    display: flex;
+    width: 100%;
+    background-color: #ffffdd;
+    border-radius: 5px;
+    padding: 5px;
+    align-items: center;
+}
+.texto{
+    position: absolute;
+    background-image:radial-gradient(circle at center right,transparent 30%,#1f1f1f 63%,rgb(12, 12, 12));
+    width:100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.estetica{
+    text-align: center;
+    margin-left: 5%;
+}
+#p1{
+    margin: 0px;
+    justify-content: justify;
+}
+#p2{
+   width: 800px; 
+}
+#p3{
+    margin-bottom: 0px;
+}
+
+.texto{
+    animation: fade-in-left 2s;
+  }
+  @keyframes fade-in-left {
+    0% {
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+.recomendar{
+    animation: opac 2s;
+  }
+  @keyframes opac {
+    0% {
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+}
+
+#test{
+    background-color: rgb(3,4,1);
+}
+#s1{
+    display:flex;
+}
+#botoes{
+    display:none;
+}
+.inicio{
+    display:none;
+}
+#icone1{
+    width:60px;
+}
+#icone2{
+    width:80px;
+    margin-left: -8px;
+    margin-right: -12px;
+}
+#icone3{
+    width:60px;
+}
+#icone4{
+    width:78px;
+}
+#icone1-2{
+    width:80px;
+}
+#icone2-2{
+    width:100px;
+    margin-bottom: -12px;
+}
+#icone3-2{
+    width:80px;
+    padding-top: 10px;
+}
+#icone4-2{
+    width:98px;
+    margin-bottom: -10px;
+}
+.figs{
+    display:flex;
+    font-size: 25px;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+}
+#fig1{
+    margin-top: 5px;
+}
+.rodape{
+    background-color: #dc0a1b;
+    display:block;
+    font-size: 25px;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+}
+#logopeqs{
+    width: 190px;
+}
+#fim{
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    width: 400px;
+    align-items: center;
+}
+
+@media (max-width:1250px){
+    #p2{
+        width:500px;
+    }
+    .inicio{
+        font-size: 30px;
+    }
+    #comidas{
+        font-size: 40px;
+    }
+}
+@media (max-width:1100px){
+    .inicio{
+        font-size: 25px;
+    }
+    .figs{
+        font-size: 20px;
+        margin-bottom:-10px;
+    }
+    #logo2{
+        width:420px;
+        height: 88px;
+    }
+    .item{
+        padding: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    #links{
+        margin-right: 10px;
+    }
+    #comidas{
+        font-size: 37px;
+    }
+}
+@media (max-width:850px){
+    .cabecalho{
+        display: block;
+        height: auto;
+        text-align: center;
+    }
+    .item{
+        margin-bottom: 8px;
+        margin-top: -25px;
+    }
+    #lista{
+        justify-content: center;
+        margin: 0px;
+        padding: 0px;
+        margin-left: 25px;
+    }
+    
+    .texto{
+        background-image:linear-gradient(to top, transparent 30%,#393939,#1f1f1f 63%,rgb(12, 12, 12));
+    }
+    .inicio{
+        margin-top: 0px;
+        font-size: 40px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color:rgb(255, 255, 255);
+        position: relative;
+        height: auto;
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .texto{
+        position: absolute;
+        width:100%;
+        height: 100%;
+        display: block;
+        align-items: center;
+        text-align: center;
+    }
+    #hamburguer{
+        width: 100%;
+    }
+    #cardapio{
+        width:100%;
+        padding-left: 0%;
+    }
+    #redes{
+        width:100%;
+        padding-left: 0%;
+    }
+    #p2{
+        width:90%;
+        margin: auto;
+    }
+    .figs{
+        width:400px;
+        margin: auto;
+        text-shadow: 4px 4px 4px black;
+    }
+    .inicio{
+        font-size: 25px;
+    }
+    .img-banner{
+        margin-top:100px;
+    }
+    .estetica{
+        padding-top: 60px;
+    }
+    .texto{
+        animation: fade-in-left 2s;
+      }
+      @keyframes fade-in-left {
+        0% {
+          opacity: 1;
+          transform: translateX(0px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+      .parag{
+        animation: fades 2s;
+      }
+      @keyframes fades{
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+      .figs{
+        animation: fadesi 2s;
+      }
+      @keyframes fadesi{
+        0% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+    .inicio{
+        height: 550px;
+    }
+    .img-banner{
+        margin-top: auto;
+    }
+    #peqs{
+        display:flex;
+        width: 100%;
+    }
+    #principal{
+        width:100%;
+    }
+    .quadro{
+        width: 48%;
+        margin: 1%;
+    }
+    #comidas{
+        width:100%;
+    }
+    .recomendar{
+        display:block;
+        width: 98%;
+        margin: auto;
+    }
+}
+@media (max-width:700px){
+    .img-banner{
+        margin-top: auto;
+    }
+    .estetica{
+        padding-top: 40px;
+    }
+    #logo2{
+        width: 320px;
+        height: 72px;
+    }
+    .inicio{
+        height: 600px;
+    }
+    #hamburguer{
+        height: 270px;
+    }
+    .figs{
+        width: auto;
+    }
+    #logopeqs{
+        width: 130px;
+    }
+    #icone1-2{
+        width:70px;
+    }
+    #icone2-2{
+        width:90px;
+    }
+    #icone3-2{
+        width:70px;
+    }
+    #icone4-2{
+        width:88px;
+    }
+}
+@media(max-width:500px){
+    #logo2{
+        width: 270px;
+        height: 60px;
+    }
+    #hamburguer{
+        height: auto;
+        margin-top: auto;
+    }
+    .img-banner{
+        margin-top: auto;
+    }
+    .inicio{
+        height: 400px;
+    }
+    .cap{
+        display:none;
+    }
+    #reunir{
+        display: flex;
+        width: 380px;
+        align-items: center;
+        margin: auto;
+    }
+    .figs{
+        margin: auto;
+    }
+    #icone1{
+        margin-top: 4px;
+    }
+    #icone2{
+        margin: 0px;
+    }
+    #icone3{
+        margin: 0px;
+    }
+    #icone4{
+        margin: 0px;
+    }
+}

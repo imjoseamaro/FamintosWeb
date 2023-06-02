@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.conteiner-principal{
+    background-color: #f20330;
+    height: 27em;
+    width: 30em;
+    margin: auto;
+    margin-top: 20em;
+    border-radius: 0.5em;
+    box-shadow: 0.4em 0.4em 0.4em #0000003b;
+}
+.dados-usuario{
+    margin:5em;
+    vertical-align: top;
+    flex-direction: column;
+}
+#nome-usuario{
+    font-size: 1.5em;
+    font-family: Arial,sans-serif;
+    color: #ffffff; 
+    margin-left: 0.9em;
+    padding-top: 0.5em;
+}
+#input-nome{
+    height: 1.8em;
+    width: 20em;
+    border: #f20330;
+    border-radius: 5px;
+}
+#input-nome:hover{
+    transform: scale(1.1);
+    box-shadow: 0.3em 0.3em 0.3em #0000003b;
+}
+#rua{
+    font-size: 1.5em;
+    font-family: Arial,sans-serif;
+    color: #ffffff; 
+    margin-left: 0.8em;
+    padding-top: 0.5em;
+}
+#input-rua{
+    height: 1.8em;
+    width: 20em;
+    border: #f20330;
+    border-radius: 5px; 
+}
+#input-rua:hover{
+    transform: scale(1.1);
+    box-shadow: 0.3em 0.3em 0.3em #0000003b;
+}
+#numero-casa{
+    font-size: 1.5em;
+    font-family: Arial,sans-serif;
+    color: #ffffff; 
+    margin-left: 0.8em;
+    padding-top: 0.5em;
+}
+#input-number-casa{
+    height: 1.8em;
+    width: 20em;
+    border: #f20330;
+    border-radius: 5px; 
+}
+#input-number-casa:hover{
+    transform: scale(1.1);
+    box-shadow: 0.3em 0.3em 0.3em #0000003b;
+}
+#bairro{
+    font-size: 1.5em;
+    font-family: Arial,sans-serif;
+    color: #ffffff; 
+    margin-left: 0.8em;
+    padding-top: 0.5em;
+}
+#input-bairro{
+    height: 1.8em;
+    width: 20em;
+    border: #f20330;
+    border-radius: 5px;
+}
+#input-bairro:hover{
+    transform: scale(1.1);
+    box-shadow: 0.3em 0.3em 0.3em #0000003b;
+}
+#ponto-referencial{
+    font-size: 1.5em;
+    font-family:Arial,sans-serif ;
+    color: #ffffff; 
+    margin-left: 0.8em;
+    padding-top: 0.5em;
+}
+#input-referencia{
+    height: 1.8em;
+    width: 20em;
+    border: #f20330;
+    border-radius: 5px;
+}
+#input-referencia:hover{
+    transform: scale(1.1);
+    box-shadow: 0.3em 0.3em 0.3em #0000003b;
+}
+#finalizar{
+    height: 1.8em;
+    width: 10em;
+    border: #f20330;
+    border-radius: 5px;
+    background-color: #ffffff;
+    font-size: 1em;
+    font-family: Arial,sans-seriff;
+    color: #000000;
+    margin: 1.5em;
+    margin-left: 5em;
+    padding-top:auto;
+}
+#finalizar:hover{
+    transform: scale(1.1);
+    box-shadow: 0.3em 0.3em 0.3em #0000003b;
+}

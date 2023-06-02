@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receber pedido no restaurante físico</title>
+    <link rel="stylesheet" href="logincss/restaurante-fisico.css">
+</head>
+<body>
+    <div class="conteiner-principal">
+        <form class="dados-usuario">
+            <p id="nome-cliente"> 
+                <label id="nome">Seu nome:</label>
+                <input id="input-nome" type="text">
+            </p>
+            <p id="numero-mesa"> 
+                <label id="numero">Número da mesa:</label>
+                <input id="input-number-mesa" type="number" min="1">
+            </p>
+
+            <h1 id="alert">Deseja levar seu pedido para casa?</h1>
+            <div id="opcao-entrega">   
+                    <p id="opcao-sim">
+                        <input type="checkbox" id="sim" value="sim" >
+                        <label class="opcao" for="opcao-sim">Sim</label>
+                    </p>
+                    <p id="opcao-nao">
+                        <input type="checkbox" id="nao" value="Não">
+                        <label class="opcao" for="opcao-nao">Não</label>
+                    </p>    
+            </div>
+    </div>
+</body>
+</html>

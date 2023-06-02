@@ -1,0 +1,147 @@
+html, body{
+    min-height: 100%;
+    text-align: center;
+   
+   
+   
+    
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #ffffdd;
+    background-color: white;
+   
+    
+    
+}
+
+.cabecalho{
+    display: flex;
+    background-color:#dc0a1b;
+    align-items: center;
+    color:white;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 20px;
+    height: 110px;
+}
+.img{
+    border-radius: 300px;
+}
+
+#lista{
+    display: flex;
+}
+
+#logo{
+    width:300px;
+    height: 110px;
+}
+
+.item{
+    padding:30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    list-style-type: none;
+    border-left: white 3px solid;
+}
+
+#links{
+    margin-left: auto;
+}
+
+#i1{
+    border-left: none;
+}
+
+#icone1-2{
+    width:80px;
+}
+
+#icone2-2{
+    width:100px;
+    margin-bottom: -12px;
+}
+
+#icone3-2{
+    width:80px;
+    padding-top: 10px;
+}
+
+#icone4-2{
+    width:98px;
+    margin-bottom: -10px;
+}
+
+.rodape{
+    background-color: #dc0a1b;
+    display:block;
+    font-size: 25px;
+    color:white;
+    font-family: Verdana, Tahoma, sans-serif;
+    align-items: center;
+    padding-top: 30px;
+    margin-bottom: 0px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    width: 100%; 
+    text-align: center; 
+    
+    
+   
+}
+
+#logopeqs{
+    width: 190px;
+}
+
+#fim{
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    width: 400px;
+    align-items: center; 
+   
+} 
+
+.cart--item-qtmais{
+    color: #dc0a1b; 
+    background-color:white; 
+    font-size: 12px;
+    border-color: aliceblue;
+    }
+
+.cart--item--qtmenos{ 
+color: #dc0a1b;
+background-color: white; 
+font-size: 12px;
+border-color: aliceblue;
+} 
+
+.tabelas--m0{ 
+    width: 200px;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 16px;
+    color: 	#dc0a1b; 
+    margin-left: 700px; 
+    
+    
+}
+
+
+.total--l{
+font-family: Verdana, Tahoma, sans-serif;
+color: 	#dc0a1b; 
+margin-right: 400px;
+
+}
+
+.tabela--m01{
+margin-left: 330px;   
+}
+
+
+#cor{ 
+background-color: white;
+}

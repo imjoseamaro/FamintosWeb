@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.conteiner-principal{
+    background-color: #f20330;
+    height: 18em;
+    width: 25em;
+    margin: auto;
+    margin-top: 20em;
+    border-radius: 0.5em;
+    box-shadow: 0.4em 0.4em 0.4em #0000003b;
+}
+.dados-usuario{
+    margin:3em;
+    vertical-align: top;
+    flex-direction: column;
+    
+}
+#nome-cliente{
+    font-size: 1.5em;
+    font-family: Arial,sans-serif;
+    color: #ffffff; 
+    margin-left: 0.9em;
+    padding-top: 0.5em;
+}
+#input-nome{
+    height: 1.8em;
+    width: 20em;
+    border: #f20330;
+    border-radius: 5px;
+}
+#input-nome:hover{
+    transform: scale(1.1);
+    box-shadow: 0.3em 0.3em 0.3em #0000003b;
+}
+#numero-mesa{
+    font-size: 1.5em;
+    font-family: Arial,sans-serif;
+    color: #ffffff; 
+    margin-left: 0.9em;
+    padding-top: 0.5em;
+}
+#input-number-mesa{
+    height: 1.8em;
+    width: 20em;
+    border: #f20330;
+    border-radius: 5px;
+}
+#input-number-mesa:hover{
+    transform: scale(1.1);
+    box-shadow: 0.3em 0.3em 0.3em #0000003b;
+}
+#alert{
+    font-size: 1.5em;
+    font-family:Arial,sans-serif;
+    color: #ffffff; 
+    text-align: center;
+    padding-top: 1em;
+}
+#opcao-entrega{
+    font-size: 1em;
+    font-family: Arial,sans-serif;
+    color: #ffffff; 
+    display: flex;
+    margin-left: 1.5em;
+    line-height: 2.5em;
+}
+#opcao-sim{
+    line-height: 4em;
+    padding-left: 2em;
+}
+#opcao-nao{
+    line-height: 4em;
+    padding-left: 4em;
+}
+.opcao{
+    font-size: 1.5em;
+}
+
+    
+    

@@ -1,0 +1,154 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.cabecalho{
+    display: flex;
+    background-color:#dc0a1b;
+    align-items: center;
+    color:#ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.30em;
+    height: 6.5em;
+}
+#lista{
+    display: flex;
+}
+#logo{
+    width:15em;
+    height: 6em;
+}
+.item{
+    padding:1.5em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    list-style-type: none;
+    border-left: #ffffff 3px solid;
+}
+#links{
+    margin-left: auto;
+}
+#i1{
+    border-left: none;
+}
+
+#titulo-cardapio{
+    font-size: 3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #dc0a1b;
+    text-align: center;
+    
+} 
+
+#links-secoes{
+    margin-top: 3em;
+}
+
+#divBusca{
+    background-color:#E0EEEE;
+    border:solid 2px #656563;
+    border-radius:10px;
+    width:20em;
+    height:2.5em;
+    display: flex;
+    margin-top: 5px;
+}
+
+#txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:191px;
+}
+
+#btnBusca{
+    border:none;
+    float:left;
+    height:31px;
+    border-radius:0 7px 7px 0;
+    width:70px;
+    font-weight:bold;
+    background-color: #ffffff;
+}
+
+.header h1{
+    font-size: 4em;
+    text-transform: uppercase;
+    color: var(--textColor);
+    }
+
+
+    #icone1-2{
+    width:80px;
+}
+#icone2-2{
+    width:100px;
+    margin-bottom: -12px;
+}
+#icone3-2{
+    width:80px;
+    padding-top: 10px;
+}
+#icone4-2{
+    width:98px;
+    margin-bottom: -10px;
+}
+
+.col-sm-3 {
+    height: 400px;
+}
+
+
+@media (max-width: 1024px) {
+    .img-responsive {
+        width: 1450px;
+    }
+}
+
+@media (max-width:850px){
+    .cabecalho{
+        display: block;
+        height: auto;
+        text-align: center;
+    }
+    .item{
+        margin-bottom: 8px;
+        margin-top: -25px;
+    }
+    #lista{
+        justify-content: center;
+        margin: 0px;
+        padding: 0px;
+        margin-left: 25px;
+    }
+   
+
+}
+
+.rodape{
+    background-color: #dc0a1b;
+    display:block;
+    font-size: 25px;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+}
+#logopeqs{
+    width: 190px;
+}
+#fim{
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    width: 400px;
+    align-items: center;
+}
